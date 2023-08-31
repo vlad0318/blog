@@ -1,0 +1,101 @@
+body{
+	background-color: #464646;
+	color: white;
+	font-family: verdana, sans-serif;
+	font-size: 18px;
+}
+
+header.top{
+	position: static;
+	border: 1px #C0C0C0;
+	background-color: #C0C0C0;
+	text-align: center;
+	padding: 10px;
+}
+
+button{
+	margin-top: 1%;
+	border: none;
+	background: none;
+}
+
+input.sing{
+	margin-right: -93%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+}
+
+fieldset{
+	border: 10px solid white;
+	border-radius: 50px;
+	padding: 20px;
+	width: 52%
+	height: 300px;
+	margin-left: 24%;
+	margin-right: 24%;
+	margin-top: 7%;
+	margin-bottom: -7%;
+	text-align: center;
+	font-size: 50px;
+}
+
+input{
+	font-size: 20px;
+	padding: 10px;
+	background-color: #464646;
+	border: 5px solid white;
+	border-radius: 50px;
+	color: white;
+}
+
+input.usr{
+	height: 30px;
+	width: 96%;
+	text-indent: 40px;
+	background-image: url(../img/usr.png);
+	background-repeat: no-repeat;
+	background-position: 15px;
+}
+
+div.sub{
+	padding-left: 85%;
+}
+
+div.usr-space{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+input.pass{
+	height: 30px;
+	width: 96%;
+	text-indent: 40px;
+	background-image: url(../img/lock.png);
+	background-repeat: no-repeat;
+	background-position: 15px;
+
+}
+
+div.pass-space{
+	padding-bottom: 30px;
+}
+
+input:focus{
+	border-color: #549EA3;
+	background-color: #453DD6;
+}
+
+input:hover{
+	border-color: #549EA3;
+}
+
+a:link{
+	color: #549EA3;
+}
+
+footer.extra{
+	margin-top: 13%;
+	text-align: center;
+	font-size: 10px;
+	background-color: #C0C0C0;
+}
